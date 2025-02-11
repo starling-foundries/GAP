@@ -10272,6 +10272,31 @@ terriajs-cesium-widgets@5.0.0:
     nosleep.js "^0.12.0"
     terriajs-cesium "^8.0.0"
 
+terriajs-cesium@8.0.2, terriajs-cesium@^8.0.0:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/terriajs-cesium/-/terriajs-cesium-8.0.2.tgz#8a28ca55114e083567d0bc29878471b59c290cf5"
+  integrity sha512-W5moxbSl+WQWXoVGWXsa4lVOt3apcDolW52MtsKKAKZ0iK4ftEikYLuSz22aQfAw9UE3nMDQI7dVUr+7GiO31g==
+  dependencies:
+    "@tweenjs/tween.js" "^23.1.1"
+    "@zip.js/zip.js" "^2.7.34"
+    autolinker "^4.0.0"
+    bitmap-sdf "^1.0.3"
+    dompurify "^3.0.2"
+    draco3d "^1.5.1"
+    earcut "^2.2.4"
+    grapheme-splitter "^1.0.4"
+    jsep "^1.3.8"
+    kdbush "^4.0.1"
+    ktx-parse "^0.6.0"
+    lerc "^2.0.0"
+    mersenne-twister "^1.1.0"
+    meshoptimizer "^0.20.0"
+    pako "^2.0.4"
+    protobufjs "^7.1.0"
+    rbush "^3.0.1"
+    topojson-client "^3.1.0"
+    urijs "^1.19.7"
+
 terriajs-html2canvas@1.0.0-alpha.12-terriajs-1:
   version "1.0.0-alpha.12-terriajs-1"
   resolved "https://registry.yarnpkg.com/terriajs-html2canvas/-/terriajs-html2canvas-1.0.0-alpha.12-terriajs-1.tgz#592a7fddcccbef3657f2a5259f283d56245f5b5a"
