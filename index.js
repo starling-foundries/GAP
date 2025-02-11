@@ -85,7 +85,7 @@ export default terria
       updateApplicationOnMessageFromParentWindow(terria, window);
 
       // Show a modal disclaimer before user can do anything else.
-      if (terria.configParameters.globalDisclaimer !== undefined) {
+      if (terria.configParameters.globalDisclaimer) {
         showGlobalDisclaimer(viewState);
       }
 

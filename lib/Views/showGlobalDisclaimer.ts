@@ -9,8 +9,8 @@ export default function showGlobalDisclaimer(viewState: ViewState) {
   const globalDisclaimer = terria.configParameters.globalDisclaimer;
   const hostname = window.location.hostname;
   if (
-    globalDisclaimer.enableOnLocalhost ||
-    hostname.indexOf("localhost") === -1
+    globalDisclaimer &&
+    (globalDisclaimer.enableOnLocalhost || hostname.indexOf("localhost") === -1)
   ) {
     let message = "";
     // Sometimes we want to show a preamble if the user is viewing a site other than the official production instance.
