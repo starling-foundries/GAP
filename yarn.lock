@@ -9371,7 +9371,7 @@ terriajs-typings-for-css-modules-loader@^2.5.2:
 
 terriajs@terriajs/terriajs#webpack5:
   version "8.7.11"
-  resolved "https://codeload.github.com/terriajs/terriajs/tar.gz/37a99e92f5f3faace28a1387ec1dc8fe1386dadd"
+  resolved "https://codeload.github.com/terriajs/terriajs/tar.gz/055923e0b2d49f7a858e6db4aef81656a13601c4"
   dependencies:
     "@babel/core" "^7.23.5"
     "@babel/parser" "^7.23.5"
@@ -9517,7 +9517,7 @@ terriajs@terriajs/terriajs#webpack5:
     styled-components "^5.3.9"
     svg-sprite-loader "^6.0.11"
     terriajs-cesium "8.0.2"
-    terriajs-cesium-widgets "5.0.0"
+    terriajs-cesium-widgets "5.0.1"
     terriajs-html2canvas "1.0.0-alpha.12-terriajs-1"
     terriajs-tiff-imagery-provider "2.13.3-webpack5-3"
     terriajs-typings-for-css-modules-loader "^2.5.2"
