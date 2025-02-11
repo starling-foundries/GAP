@@ -1,5 +1,4 @@
 import globeGif from "./lib/Styles/globe.gif";
-import polyfill from "terriajs/lib/Core/polyfill";
 import "./lib/Styles/loader.css";
 
 async function loadMainScript() {
@@ -27,18 +26,16 @@ function createLoader() {
   loaderDiv.style.backgroundColor = "#383F4D";
   document.body.appendChild(loaderDiv);
 
-  polyfill(function () {
-    loadMainScript()
-      .catch((err) => {
-        // Ignore errors and try to show the map anyway
-      })
-      .then(() => {
-        loaderDiv.classList.add("loader-ui-hide");
-        setTimeout(() => {
-          document.body.removeChild(loaderDiv);
-        }, 2000);
-      });
-  });
+  loadMainScript()
+    .catch((_err) => {
+      // Ignore errors and try to show the map anyway
+    })
+    .then(() => {
+      loaderDiv.classList.add("loader-ui-hide");
+      setTimeout(() => {
+        document.body.removeChild(loaderDiv);
+      }, 2000);
+    });
 }
 
 createLoader();
