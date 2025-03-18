@@ -142,6 +142,9 @@ module.exports = function (devMode) {
       modules: ["node_modules"]
     }
   };
+  config.resolve.alias["terriajs-variables"] = require.resolve(
+    "../lib/Styles/variables.scss"
+  );
 
   return configureWebpackForPlugins(
     configureWebpackForTerriaJS({
