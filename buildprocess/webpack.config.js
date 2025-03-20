@@ -138,7 +138,9 @@ module.exports = function (devMode) {
       })
     ],
     resolve: {
-      alias: {},
+      alias: {
+        "terriajs-variables": require.resolve("../lib/Styles/variables.scss")
+      },
       modules: ["node_modules"]
     }
   };

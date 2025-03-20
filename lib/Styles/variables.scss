@@ -1,3 +1,4 @@
+@forward "~terriajs/lib/Sass/common/_variables.scss";
 @use "~terriajs/lib/Sass/common/_variables.scss";
 
 // To customise the look of your map, uncomment and change values here and in lib/Views/global.scss
@@ -25,6 +26,8 @@ $color-primary-light:lighten($color-primary,10%);
 $color-primary-dark:darken($color-primary,10%);
 $dark-darker: hsl(0,30%,15%);
 */
+
+$color-primary: black;
 
 $focus-border-light-color: variables.$text-light;
 $focus-border-dark-color: variables.$text-dark;
