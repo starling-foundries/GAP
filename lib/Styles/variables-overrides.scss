@@ -1,7 +1,6 @@
-@forward "~terriajs/lib/Sass/common/_default_variables.scss" with (
-  // To customise the look of your map, uncomment and change values here and in lib/Views/global.scss
-  /**
-
+@forward "~terriajs/lib/Sass/common/_default_variables.scss"; // To customise the look of your map, uncomment and change values here and in lib/Views/global.scss
+/**
+with ( 
     // If your logo is big, set this to give it more room.
     //$logo-height: 120px;
     
@@ -23,7 +22,5 @@
     $color-primary-light:lighten($color-primary,10%);
     $color-primary-dark:darken($color-primary,10%);
     $dark-darker: hsl(0,30%,15%);
-  */
-    // Custom colors
-  // $color-primary: red,  
 );
+*/
