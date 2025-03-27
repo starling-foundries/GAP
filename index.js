@@ -12,6 +12,7 @@ import loadPlugins from "./lib/Core/loadPlugins";
 import render from "./lib/Views/render";
 import showGlobalDisclaimer from "./lib/Views/showGlobalDisclaimer";
 import plugins from "./plugins";
+import { addOrReplaceLocalFileUploadType } from "terriajs/lib/Core/getDataType";
 
 const terriaOptions = {
   baseUrl: "build/TerriaJS"
@@ -44,6 +45,13 @@ registerSearchProviders();
 // Register custom components in the core TerriaJS.  If you only want to register a subset of them, or to add your own,
 // insert your custom version of the code in the registerCustomComponentTypes function here instead.
 registerCustomComponentTypes(terria);
+
+addOrReplaceLocalFileUploadType("assimp-local", {
+  value: "assimp",
+  name: "core.dataType.assimp-local",
+  // description: i18next.t("core.dataType.assimp-local-description"),
+  extensions: ["zip"]
+});
 
 if (process.env.NODE_ENV === "development") {
   window.viewState = viewState;
