@@ -1,5 +1,11 @@
 # Change Log
 
+#### Next release
+
+- Updated TerriaJS to `8.9.2`
+  - New UI
+  - Tiling support for `ArcGisFeatureServerCatalogItem`
+
 #### 0.3.0
 
 **2025-02-18**
