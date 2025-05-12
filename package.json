@@ -23,7 +23,8 @@
     "url": "http://github.com/TerriaJS/TerriaMap"
   },
   "dependencies": {
-    "terriajs-server": "^4.0.0"
+    "terriajs-server": "^4.0.0",
+    "terriajs-plugin-proj4leaflet": "^0.0.1-alpha.1"
   },
   "config": {
     "docker": {
